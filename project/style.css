@@ -1,0 +1,280 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.container {
+    max-width: 100%;
+}
+header {
+    width: 98.7vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./Images/banner-principal.png);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: fit-content;
+    border-bottom: 1px solid white;
+}
+header h1 {
+    font-size: 5vw;
+    color: ivory;
+    padding-left: 4%;
+}
+nav {
+    display: flex;
+    width: fit-content;
+    margin-left: 45vw;
+}
+nav a {
+    margin-left: 50%;
+}
+nav img {
+    min-width: 18px;
+    max-width: 30px;
+    cursor:pointer;
+    margin: 0 auto;
+}
+nav a img {
+    margin-top: 70%;
+}
+nav a img:hover {
+    background-color: white;
+}
+
+.psp {
+    width: 98.7vw;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 0%;
+    background-color: #AF42AE;
+}
+.psp input {
+    width: 35vw;
+    padding: 3%;
+    border-radius: 10px;
+}
+.psp a img{
+    width: 25px;
+    height: 25px;
+}
+.busq1 {
+    width: 50vw;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    background-color: white;
+    border: 2px solid gray;
+}
+#bsc1 {
+    margin-left: 5%;
+}
+.busq2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.busq2 a img {
+    width: 25px;
+    height: 25px;
+
+}
+
+.busq2 figcaption{
+    margin-top: 0.7%;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.zc1 {
+    background-color: #b5f1dd;
+    border-radius: 10px;
+    height: fit-content;
+}
+.zc1 a {
+    height: fit-content;
+}
+.crpb1 {
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.publ {
+    margin-top: 2%;
+}
+.publ img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dleft {
+    width: 20vw;
+    background-image: url(./Images/banner-side.png);
+    padding: 0 auto;
+    float: left;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    color: white;
+}
+.dleft img {
+    width: 25px;
+    height: 25px;
+}
+.dleft figcaption {
+    text-overflow: ellipsis;
+    margin-top: 0.25vw;
+    margin-left: 0.9vw;
+}
+#salute1 {
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #4dc58f;
+}
+
+.sct1, .sct2, .sct3, .sct4, .sct5, .sct6, .sct7, .sct8, .sct9, .sct10 {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.sct1:hover, .sct2:hover, .sct3:hover, .sct4:hover, .sct5:hover, .sct6:hover, .sct7:hover, .sct8:hover, .sct9:hover, .sct10:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.busq3 {
+    background-image: url(./Images/banner-side.png);
+    width: 20.5vw;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    padding: 0 auto;
+    color: white;
+}
+
+.busq3 img {
+    width: 25px;
+    height: 25px;
+}
+.busq3 figcaption {
+    text-overflow: ellipsis;
+    margin-top: 0.25vw;
+    margin-left: 0.9vw;
+}
+.us {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #4dc58f;
+}
+.us1 {
+    width: 95%;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    font-size: 2.46vh;
+}
+.us1 figcaption {
+    font-size: 2.46vh;
+}
+.us1:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.usqt1 {
+    text-align: center;
+    background-color: #4dc58f;
+}
+
+.usq1 {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.usq1:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.uspb {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 45%;
+}
+.uspb p {
+    margin-left: 1.5%;
+}
+.uspb img {
+    width: 25px;
+}
+.publ1 {
+    border-radius: 5px;
+}
+.agr1 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.agr1 img {
+    height: 25px;
+    width: 25px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.agr1 figcaption {
+    margin-left: 1.3%;
+    cursor: pointer;
+}
+
+
+/* Pantallas */
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    header a img{
+        width: 20px;
+        height: 20px;
+        transform: scale(1.0) translate(50%, 15%);
+    }
+    header a {
+        display: flex;
+    }
+}
+@media (max-width: 1163px) {
+    nav {
+        padding-right: 4%;
+        margin-left: 38vw;
+    }
+}
